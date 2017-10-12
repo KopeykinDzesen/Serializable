@@ -12,6 +12,8 @@ public class Main {
        printCheckType(c);
        printCheckType(d);
 
+        System.out.println("  ");
+
     }
 
     static <T> boolean checkTypeA(T sometype){
