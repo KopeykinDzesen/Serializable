@@ -1,16 +1,16 @@
 import java.io.Serializable;
 
-public class User implements Serializable{
+public class User1Child extends User1 implements Serializable{
 
-    int hp;
-    Sword sword;
-    static int staticField;
+    int level;
 
     @Override
     public String toString() {
-        return "User{" +
+        return "User1Child{" +
                 "hp=" + hp +
                 ", sword=" + sword +
+                "level=" + level +
                 '}';
     }
+
 }

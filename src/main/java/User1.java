@@ -1,10 +1,7 @@
-import java.io.Serializable;
-
-public class User implements Serializable{
+public class User1 {
 
     int hp;
     Sword sword;
-    static int staticField;
 
     @Override
     public String toString() {
@@ -13,4 +10,5 @@ public class User implements Serializable{
                 ", sword=" + sword +
                 '}';
     }
+
 }
